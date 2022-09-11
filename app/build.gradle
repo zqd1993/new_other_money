@@ -6,17 +6,17 @@ plugins {
 android {
     signingConfigs {
         config {
-            keyAlias "hrshsdhhfhh"
-            keyPassword "psd112233"
-            storeFile file("./hrshsdhhfhh.jks")
-            storePassword "psd112233"
+            keyAlias "renyisjerun"
+            keyPassword "psd123456"
+            storeFile file("./renyisjerun.jks")
+            storePassword "psd123456"
         }
     }
     compileSdkVersion 31
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.terdfgdf.jghrstyfgh"
+        applicationId "com.renyisjerun.ewtfhweryy"
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1

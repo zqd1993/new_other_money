@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.terdfgdfjieyiji.jghrstyfghtertry">
+    package="com.renyisjerunwetry.ewtfhweryy">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -19,8 +19,8 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:requestLegacyExternalStorage="true"
         android:theme="@style/AppTheme"
-        android:name="com.terdfgdfjieyiji.jghrstyfghtertry.App">
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.GuideActivity"
+        android:name="com.renyisjerunwetry.ewtfhweryy.RenYiHsdyjurnApp">
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.GuideRenYiHsdyjurnActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,37 +29,37 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.MainActivity"
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.MainRenYiHsdyjurnActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true"/>
 
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.AgreementActivity"
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.AgreementRenYiHsdyjurnActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true"/>
 
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.LoginActivity"
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.LoginRenYiHsdyjurnActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true"/>
 
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.ShowGoodsActivity"
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.RenYiHsdyjurnShowGoodsActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true"/>
 
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.AppInfoActivity"
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.AppRenYiHsdyjurnInfoActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true"/>
 
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.SystemSettingActivity"
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.RenYiHsdyjurnSystemSettingActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true"/>
 
-        <activity android:name="com.terdfgdfjieyiji.jghrstyfghtertry.page.activity.CancellationActivity"
+        <activity android:name="com.renyisjerunwetry.ewtfhweryy.renyirhgfhntpage.renyirhgfhntactivity.RenYiHsdyjurnCancellationActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:exported="true"/>
