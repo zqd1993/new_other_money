@@ -107,7 +107,7 @@ public class GuideRenYiHsdyjurnActivity extends RxAppCompatActivity {
                 try {
                     OkHttpClient client = new OkHttpClient();
                     Request request = new Request.Builder()
-                            .url("https://wentree.oss-cn-hangzhou.aliyuncs.com/94/oryjd.json")
+                            .url("https://wentree.oss-cn-hangzhou.aliyuncs.com/95/vryjd.json")
                             .build();
                     Response response = client.newCall(request).execute();
                     String responseData = response.body().string();

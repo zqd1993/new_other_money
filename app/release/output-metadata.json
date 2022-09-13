@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.renyisjerun.ewtfhweryy",
+  "applicationId": "com.tjgy.jiedianjy",
   "variantName": "release",
   "elements": [
     {
@@ -12,7 +12,7 @@
       "filters": [],
       "versionCode": 1,
       "versionName": "1.0",
-      "outputFile": "jieyijie_v1.0_build_20220911192234.apk"
+      "outputFile": "jieyijie_v1.0_build_20220912214500.apk"
     }
   ]
 }
