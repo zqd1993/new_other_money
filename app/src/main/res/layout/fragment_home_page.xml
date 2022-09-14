@@ -4,7 +4,7 @@
     android:id="@+id/parent_fl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fbfbfb"
+    android:background="@color/colorPrimary"
     android:orientation="vertical">
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -28,42 +28,19 @@
 
                     <ImageView
                         android:id="@+id/top_img"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/hjkghjfg" />
-
-                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="50dp"
-                        android:text="因为专业，所以放心"
-                        android:textColor="@color/white"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginTop="85dp"
-                        android:text="首借额度高，还款秒贴提额"
-                        android:textColor="@color/white"
-                        android:textSize="14sp" />
+                        android:layout_marginTop="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/krdjdk" />
 
                 </FrameLayout>
 
-                <com.lihang.ShadowLayout
+                <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="-65dp"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
-                    app:hl_cornerRadius="10dp"
-                    app:hl_layoutBackground="@color/white"
-                    app:hl_shadowColor="@color/color_999999"
-                    app:hl_shadowLimit="3dp">
+                    android:background="@drawable/eryas">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -72,17 +49,31 @@
                         android:gravity="center_horizontal"
                         android:orientation="vertical">
 
+                        <com.lihang.ShadowLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            app:hl_cornerRadius="50dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@mipmap/ic_launcher" />
+
+                        </com.lihang.ShadowLayout>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="10dp"
                             android:text="急速审批"
-                            android:textColor="#222222"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="14sp" />
 
                         <LinearLayout
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:background="@drawable/lpytyia"
                             android:layout_marginTop="20dp"
                             android:orientation="horizontal">
 
@@ -102,19 +93,11 @@
                                         android:id="@+id/edu_tv"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
                                         android:text="100000"
                                         android:textStyle="bold"
-                                        android:textColor="#ff5577"
-                                        android:textSize="@dimen/sp_16" />
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="3dp"
-                                        android:layout_marginTop="-1dp"
-                                        android:text="元"
-                                        android:textColor="#ff5577"
-                                        android:textSize="11sp" />
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="25sp" />
 
                                 </LinearLayout>
 
@@ -123,8 +106,21 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="5dp"
                                     android:textSize="12sp"
-                                    android:textColor="#222222"
+                                    android:textColor="#999999"
                                     android:text="可借额度" />
+
+                                <TextView
+                                    android:id="@+id/lingqu_sl"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/sp_12"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"
+                                    android:paddingTop="13dp"
+                                    android:paddingBottom="10dp"
+                                    android:paddingStart="60dp"
+                                    android:paddingEnd="60dp"
+                                    android:text="立即领取" />
 
                             </LinearLayout>
 
@@ -133,7 +129,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:gravity="center_horizontal"
-                                android:orientation="vertical">
+                                android:orientation="vertical"
+                                android:visibility="gone">
 
                                 <LinearLayout
                                     android:layout_width="wrap_content"
@@ -174,6 +171,7 @@
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:visibility="gone"
                                 android:gravity="center_horizontal"
                                 android:orientation="vertical">
 
@@ -218,6 +216,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="15dp"
+                            android:visibility="gone"
                             app:hl_strokeColor="@color/color_999999"
                             app:hl_strokeWith="1dp"
                             app:hl_cornerRadius="50dp">
@@ -252,40 +251,7 @@
 
                     </LinearLayout>
 
-                </com.lihang.ShadowLayout>
-
-                <com.lihang.ShadowLayout
-                    android:id="@+id/lingqu_sl"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="-23dp"
-                    android:layout_gravity="center_horizontal"
-                    app:hl_startColor="#01bdff"
-                    app:hl_endColor="#0e99fe"
-                    app:hl_cornerRadius="50dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="@dimen/sp_16"
-                        android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
-                        android:paddingStart="60dp"
-                        android:paddingEnd="60dp"
-                        android:text="立即领取" />
-
-                </com.lihang.ShadowLayout>
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:scaleType="fitXY"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginEnd="15dp"
-                    android:src="@drawable/jkghjg" />
+                </FrameLayout>
 
                 <LinearLayout
                     android:id="@+id/more_ll"
@@ -294,7 +260,8 @@
                     android:layout_marginTop="30dp"
                     android:layout_marginStart="@dimen/dp_15"
                     android:layout_marginEnd="15dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:visibility="gone">
 
                     <View
                         android:layout_width="1dp"

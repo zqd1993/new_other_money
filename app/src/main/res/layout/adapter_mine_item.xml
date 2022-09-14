@@ -18,7 +18,7 @@
             android:id="@+id/item_img"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/fjyuims"/>
+            android:src="@drawable/ehxfgj"/>
 
         <TextView
             android:id="@+id/item_title_tv"
